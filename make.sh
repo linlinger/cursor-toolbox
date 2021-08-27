@@ -6,7 +6,7 @@
 themetitle='My Cursor Theme'
 
 
-# For the folder name: Replace forbidden charakters with “-”
+# For the folder name: Replace forbidden characters with “-”
 foldername=$(echo $themetitle | sed -e 's/[^A-Za-z0-9_-]/-/g')
 mkdir -p $foldername
 mkdir -p $foldername/cursors
